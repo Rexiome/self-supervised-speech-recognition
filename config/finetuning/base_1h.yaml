@@ -11,6 +11,7 @@ checkpoint:
   keep_interval_updates: 1
   no_epoch_checkpoints: true
   best_checkpoint_metric: wer
+  save_dir: /content/drive/MyDrive/Checkpoints/finetuning
 
 task:
   _name: audio_pretraining
