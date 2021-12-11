@@ -9,6 +9,7 @@ checkpoint:
   save_interval_updates: 10000
   keep_interval_updates: 1
   no_epoch_checkpoints: true
+  save_dir: /content/drive/MyDrive/Checkpoints/pretraining
 
 task:
   _name: audio_pretraining
