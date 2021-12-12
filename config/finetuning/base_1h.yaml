@@ -4,7 +4,7 @@ common:
   fp16: false
   log_format: json
   log_interval: 200
-  no_progress_bar: false
+  #no_progress_bar: false
 
 checkpoint:
   save_interval: 1
