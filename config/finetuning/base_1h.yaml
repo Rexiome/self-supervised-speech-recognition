@@ -4,6 +4,7 @@ common:
   fp16: false
   log_format: json
   log_interval: 200
+  wandb_project: wav2vec
 
 checkpoint:
   save_interval: 1
